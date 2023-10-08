@@ -5,24 +5,24 @@ Ten projekt jest systemem do zarządzania sklepem internetowym, który umożliwi
 	1. Sklonuj repozytorium z kodem
 	2. Utwórz wirtualne środowisko Python
 	3. Zainstaluj zależności za pomocą komendy
-  	```
-	pip install -r requirements.txt
- 	```
+ ```
+pip install -r requirements.txt
+```
   
-	4. Skonfiguruj ustawienia w pliku
-	```
- 	config/settings.py
- 	```
+4. Skonfiguruj ustawienia w pliku
+```
+config/settings.py
+```
   
-	5. Wykonaj migracje bazy danych za pomocą komendy
-  	```
-	python manage.py migrate
-  	```
+5. Wykonaj migracje bazy danych za pomocą komendy
+```
+python manage.py migrate
+```
    
- 	6. Uruchom serwer deweloperski komendą	
- 	```
-	python manage.py runserver'
-	```
+6. Uruchom serwer deweloperski komendą	
+```
+python manage.py runserver'
+```
  
 ## 3. Przykłady użycia - 
 Po zainstalowaniu projektu użytkownicy mogą:
