@@ -5,23 +5,23 @@ Ten projekt jest systemem do zarządzania sklepem internetowym, który umożliwi
 	1. Sklonuj repozytorium z kodem
 	2. Utwórz wirtualne środowisko Python
 	3. Zainstaluj zależności za pomocą komendy
- ```
+```ruby
 pip install -r requirements.txt
 ```
   
 4. Skonfiguruj ustawienia w pliku
-```
+```ruby
 config/settings.py
 ```
   
 5. Wykonaj migracje bazy danych za pomocą komendy
-```
+```ruby
 python manage.py migrate
 ```
    
 6. Uruchom serwer deweloperski komendą	
-```
-python manage.py runserver'
+```ruby
+python manage.py runserver
 ```
  
 ## 3. Przykłady użycia - 
