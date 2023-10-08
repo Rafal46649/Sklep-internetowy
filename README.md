@@ -1,5 +1,5 @@
 ## 1. Krótki opis projektu - 
-Ten projekt jest systemem do zarządzania sklepem internetowym, który umożliwia klientom przeglądanie produktów, składanie zamówień i wiele innych. Celem projektu jest zapewnienie kompleksowego rozwiązania dla e-commerce
+Projekt dotyczy kodu źródłowego strony internetowej, który umożliwia klientom przeglądanie produktów, składanie zamówień ocenianie produktów i wiele innych. Celem projektu jest zapewnienie kompleksowego rozwiązania dla e-commerce
 
 ## 2. Instrukcja instalacji
 1. Sklonuj repozytorium z kodem
