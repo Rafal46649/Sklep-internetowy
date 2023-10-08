@@ -1,0 +1,43 @@
+<!-- ... poprzedni kod ... -->
+
+ 
+
+<main>
+
+    <h2>Nowe Produkty</h2>
+
+    <div class="product">
+
+        <img src="product1.jpg" alt="Produkt 1">
+
+        <h3>Produkt 1</h3>
+
+        <p>Cena: $10.00</p>
+
+        <button onclick="addReview('Produkt 1')">Dodaj Recenzję</button>
+
+    </div>
+
+    
+
+    <div class="product">
+
+        <img src="product2.jpg" alt="Produkt 2">
+
+        <h3>Produkt 2</h3>
+
+        <p>Cena: $15.00</p>
+
+        <button onclick="addReview('Produkt 2')">Dodaj Recenzję</button>
+
+    </div>
+
+</main>
+
+ 
+
+<!-- ... poprzedni kod ... -->
+
+ma menu kontekstowe
+
+
