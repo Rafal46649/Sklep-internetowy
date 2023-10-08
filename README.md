@@ -37,4 +37,7 @@ Z twórcą projektu można skontaktować się pod adresem mail: dsw46649@student
 
 10.Odnośniki
 Strona internetowa projektu: http://zakupex.pl
-Repozytorium kodu	
+Repozytorium kodu: https://github.com/Rafal46649/Sklep-internetowy
+
+11. Dodatkowe informacje
+W razie pytań lub problemów z projektem proszę o kontakt zespołu projektowego
