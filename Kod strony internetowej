@@ -1,43 +1,97 @@
-<!-- ... poprzedni kod ... -->
+views.py
+
+from django.shortcuts import render
+
+from .models import Product, Review
 
  
 
-<main>
+def product_list(request):
 
-    <h2>Nowe Produkty</h2>
+    products = Product.objects.all()
 
-    <div class="product">
-
-        <img src="product1.jpg" alt="Produkt 1">
-
-        <h3>Produkt 1</h3>
-
-        <p>Cena: $10.00</p>
-
-        <button onclick="addReview('Produkt 1')">Dodaj Recenzję</button>
-
-    </div>
-
-    
-
-    <div class="product">
-
-        <img src="product2.jpg" alt="Produkt 2">
-
-        <h3>Produkt 2</h3>
-
-        <p>Cena: $15.00</p>
-
-        <button onclick="addReview('Produkt 2')">Dodaj Recenzję</button>
-
-    </div>
-
-</main>
+    return render(request, 'products/product_list.html', {'products': products})
 
  
 
-<!-- ... poprzedni kod ... -->
+def add_review(request, product_id):
 
-ma menu kontekstowe
+    product = Product.objects.get(pk=product_id)
 
+    if request.method == 'POST':
 
+        text = request.POST['review_text']
+
+        Review.objects.create(product=product, text=text)
+
+    return redirect('product_list')
+
+models.py
+
+from django.db import models
+
+ 
+
+class Product(models.Model):
+
+    name = models.CharField(max_length=100)
+
+    price = models.DecimalField(max_digits=10, decimal_places=2)
+
+    image = models.ImageField(upload_to='products/')
+
+ 
+
+class Review(models.Model):
+
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+    text = models.TextField()
+
+product_list.html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Sklep Internetowy</title>
+
+</head>
+
+<body>
+
+    <h1>Produkty</h1>
+
+    <ul>
+
+        {% for product in products %}
+
+            <li>
+
+{{ product.name }}</h2>
+
+                <p>Cena: ${{ product.price }}</p>
+
+<img src="{{ product.image.url }}" alt="{{ product.name }}">
+
+product.id %}">
+
+                    {% csrf_token %}
+
+                    <textarea name="review_text" placeholder="Dodaj recenzję"></textarea>
+
+                    <input type="submit" value="Dodaj recenzję">
+
+                </form>
+
+            </li>
+
+        {% endfor %}
+
+    </ul>
+
+</body>
+
+</html>
