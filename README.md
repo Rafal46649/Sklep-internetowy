@@ -2,26 +2,24 @@
 Ten projekt jest systemem do zarządzania sklepem internetowym, który umożliwia klientom przeglądanie produktów, składanie zamówień i wiele innych. Celem projektu jest zapewnienie kompleksowego rozwiązania dla e-commerce
 
 ## 2. Instrukcja instalacji
-	Sklonuj repozytorium z kodem
-	Utwórz wirtualne środowisko Python
-	Zainstaluj zależności za pomocą komendy
- 	
+	1. Sklonuj repozytorium z kodem
+	2. Utwórz wirtualne środowisko Python
+	3. Zainstaluj zależności za pomocą komendy
   	```
 	pip install -r requirements.txt
  	```
-	Skonfiguruj ustawienia w pliku
- 
+  
+	4. Skonfiguruj ustawienia w pliku
 	```
  	config/settings.py
  	```
-	Wykonaj migracje bazy danych za pomocą komendy
- 	
+  
+	5. Wykonaj migracje bazy danych za pomocą komendy
   	```
 	python manage.py migrate
   	```
-	
- 	Uruchom serwer deweloperski komendą
-	
+   
+ 	6. Uruchom serwer deweloperski komendą	
  	```
 	python manage.py runserver'
 	```
