@@ -1,0 +1,6 @@
+Do poprawnego działania programu będzie potrzebować frameworków i bibliotek podanych poniżej:
+
+	- Django==3.2.7 to framework Django w wersji 3.2.7.
+	- requests==2.26.0 to biblioteka Requests do wykonywania żądań HTTP w wersji 2.26.0.
+	- pillow==8.2.0 to biblioteka Pillow do pracy z obrazami w wersji 8.2.0.
+	- gunicorn==20.1.0 to serwer HTTP Gunicorn w wersji 20.1.0.
