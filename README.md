@@ -46,8 +46,8 @@ Projekt jest dostępny na licencji MIT. Więcej informacji znaleźć można w pl
 Lista zależności znajduje się w pliku requirements.txt
 
 ## 8. Status projektu
-	- Obecna wersja projektu - 1.0.0
-	- Planowane aktualizacje: Dodanie funkcji oceniania produktów i recenzji
+Obecna wersja projektu - 1.0.0
+Planowane aktualizacje: Dodanie funkcji oceniania produktów i recenzji
 
 ## 9. Informacje Kontaktowe - 
 Z twórcą projektu można skontaktować się pod adresem mail: dsw46649@student.dsw.edu.pl
