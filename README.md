@@ -45,16 +45,18 @@ Projekt jest dostępny na licencji MIT. Więcej informacji znaleźć można w pl
 ## 7. Zależności - 
 Lista zależności znajduje się w pliku requirements.txt
 
-## 8. Status projektu
-Obecna wersja projektu - 1.0.0
-Planowane aktualizacje: Dodanie funkcji oceniania produktów i recenzji
+## 8. Wersja projektu
+1.0.0
 
-## 9. Informacje Kontaktowe - 
+## 9. Planowane aktualizacje
+Dodanie funkcji oceniania produktów i recenzji
+
+## 10. Informacje Kontaktowe - 
 Z twórcą projektu można skontaktować się pod adresem mail: dsw46649@student.dsw.edu.pl
 
-## 10.Odnośniki - 
+## 11. Odnośniki - 
 Strona internetowa projektu: http://zakupex.pl
 Repozytorium kodu: https://github.com/Rafal46649/Sklep-internetowy
 
-## 11. Dodatkowe informacje - 
+## 12. Dodatkowe informacje - 
 W razie pytań lub problemów z projektem proszę o kontakt zespołu projektowego
