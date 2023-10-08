@@ -17,7 +17,7 @@ Po zainstalowaniu projektu użytkownicy mogą:
 	- Śledzić status swoich zamówień
 
 4. Dokumentacja - 
-Wszelkie dokumentace projektu w tym wymagania, specyfikacje, diagramy i opisy, znajdują się na moodle oraz na github
+Wszelkie dokumentacje projektu w tym wymagania, specyfikacje, diagramy i opisy, znajdują się na moodle oraz na github
 
 5. Instrukcje do przeczytania - 
 W katalogu głównym projektu znajdują się instrukcje dotyczące konfiguracji, zarządzania bazą danych itp.
