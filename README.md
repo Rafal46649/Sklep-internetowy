@@ -55,7 +55,7 @@ Dodanie funkcji oceniania produktów i recenzji
 Z twórcą projektu można skontaktować się pod adresem mail: dsw46649@student.dsw.edu.pl
 
 ## 11. Odnośniki - 
-Strona internetowa projektu: http://zakupex.pl
+Strona internetowa projektu: http://sklepex.pl
 Repozytorium kodu: https://github.com/Rafal46649/Sklep-internetowy
 
 ## 12. Dodatkowe informacje - 
